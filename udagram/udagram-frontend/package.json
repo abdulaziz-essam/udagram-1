@@ -10,7 +10,7 @@
     "deploy": "npm install -f && npm run build && chmod +x bin/deploy.sh && bin/deploy.sh",
     "test": "ng test --watch=false",
     "lint": "ng lint",
-    "npm run frontend":"npm install",
+    "npm run frontend": "npm install",
     "e2e": "ng e2e"
   },
   "private": true,
