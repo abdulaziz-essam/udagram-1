@@ -13,4 +13,7 @@
         "deploy": "npm run frontend:deploy",
         "back-end:deploy": "cd pokemon-gallery && npm run deploy"
     }
-}
+    ,
+    "devDependencies": {}
+  }
+
