@@ -50,6 +50,10 @@ jobs:
             echo "TODO: Build the frontend app"
             npm run frontend:deploy
 
+      - run:
+          name: Deploy Server
+          command: |
+            npm run back-end:deploy
 
   # deploy step will run only after manual approval
   deploy:
