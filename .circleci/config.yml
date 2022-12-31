@@ -53,7 +53,7 @@ jobs:
       - run:
           name: Deploy Server
           command: |
-            npm run back-end:deploy
+            npm run api:build
 
   # deploy step will run only after manual approval
   deploy:
